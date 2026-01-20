@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  author: Rheinwerk
+  description: Generic role for installing Prometheus exporters from GitHub releases
+  license: MIT
+  min_ansible_version: "2.12"
+  platforms:
+    - name: Debian
+      versions:
+        - bullseye
+        - bookworm
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+  galaxy_tags:
+    - prometheus
+    - monitoring
+    - exporter
+
+dependencies: []
